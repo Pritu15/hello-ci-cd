@@ -1,7 +1,5 @@
 const assert = require("assert");
 
-describe("Basic Test", () => {
-  it("should pass", () => {
-    assert.strictEqual(1 + 1, 2);
-  });
-});
+assert.strictEqual(1 + 1, 2);
+
+console.log("✅ Test passed");
